@@ -1,0 +1,56 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.66%;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: solid red 2px;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+        width: 45%;
+        margin-left: 2.5%;
+    }
+
+    img {
+        width: 45%;
+        float: left;
+        margin: 2.5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    img {
+        width: 45%;
+        float: left;
+        margin: 2.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        width: 95%;
+        margin-left: 2.5%;
+        text-align: center;
+    }
+
+    img {
+        width: 95%;
+        float: left;
+        margin: 2.5%;
+    }
+}
