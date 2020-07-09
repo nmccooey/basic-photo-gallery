@@ -1,0 +1,1 @@
+The simple photo gallery that is responsive.
